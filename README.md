@@ -8,6 +8,8 @@ Today, Thai Text-to-speech doesn't have any onnx model for onnxruntime. We use T
 
 ## How to export
 
+We use [lunarlist/tts-thai-last-step](https://huggingface.co/lunarlist/tts-thai-last-step) model for export Thai TTS model.
+
 We use the patch from [#7366 at NVIDIA/NeMo](https://github.com/NVIDIA/NeMo/pull/7466) and fixed a bug in the patch.
 
 ### Install
