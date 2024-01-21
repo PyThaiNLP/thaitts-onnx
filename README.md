@@ -20,6 +20,6 @@ pip install pytorch-lightning==2.0.9
 
 ### Export
 
-Run infer_tacotron2_onnx.py and vocoder-export.ipynb.
+Run onnx-export.ipynb and vocoder-export.ipynb.
 
 You will found the patch has a bug. It is wrong for setting high number at the line 100 in https://github.com/RobinDong/NeMo/blob/0113c8268594fa0e61901409235ff33ea5d39beb/nemo/collections/tts/models/tacotron2.py#L98 (Path: /usr/local/lib/python3.10/dist-packages/nemo/collections/tts/models/tacotron2.py) and fixed by config high number https://github.com/PyThaiNLP/thaitts-onnx/blob/main/tacotron2.py#L100.
