@@ -17,7 +17,6 @@ We use the patch from [#7366 at NVIDIA/NeMo](https://github.com/NVIDIA/NeMo/pull
 ```sh
 pip install -r https://github.com/RobinDong/NeMo/raw/add_onnx_export/requirements/requirements_tts.txt
 pip install hydra-core
-pip install pytorch-lightning==1.9.5
 pip install youtokentome webdataset
 pip install pyannote.audio
 pip install pytorch-lightning==2.0.9
